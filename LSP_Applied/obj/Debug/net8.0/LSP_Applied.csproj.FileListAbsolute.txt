@@ -1,0 +1,15 @@
+E:\SOLID_git\LSP_Applied\bin\Debug\net8.0\LSP_Applied.exe
+E:\SOLID_git\LSP_Applied\bin\Debug\net8.0\LSP_Applied.deps.json
+E:\SOLID_git\LSP_Applied\bin\Debug\net8.0\LSP_Applied.runtimeconfig.json
+E:\SOLID_git\LSP_Applied\bin\Debug\net8.0\LSP_Applied.dll
+E:\SOLID_git\LSP_Applied\bin\Debug\net8.0\LSP_Applied.pdb
+E:\SOLID_git\LSP_Applied\obj\Debug\net8.0\LSP_Applied.GeneratedMSBuildEditorConfig.editorconfig
+E:\SOLID_git\LSP_Applied\obj\Debug\net8.0\LSP_Applied.AssemblyInfoInputs.cache
+E:\SOLID_git\LSP_Applied\obj\Debug\net8.0\LSP_Applied.AssemblyInfo.cs
+E:\SOLID_git\LSP_Applied\obj\Debug\net8.0\LSP_Applied.csproj.CoreCompileInputs.cache
+E:\SOLID_git\LSP_Applied\obj\Debug\net8.0\LSP_Applied.sourcelink.json
+E:\SOLID_git\LSP_Applied\obj\Debug\net8.0\LSP_Applied.dll
+E:\SOLID_git\LSP_Applied\obj\Debug\net8.0\refint\LSP_Applied.dll
+E:\SOLID_git\LSP_Applied\obj\Debug\net8.0\LSP_Applied.pdb
+E:\SOLID_git\LSP_Applied\obj\Debug\net8.0\LSP_Applied.genruntimeconfig.cache
+E:\SOLID_git\LSP_Applied\obj\Debug\net8.0\ref\LSP_Applied.dll

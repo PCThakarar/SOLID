@@ -1,0 +1,15 @@
+E:\SOLID_git\ISP_Applied\obj\Debug\net8.0\ISP_Applied.GeneratedMSBuildEditorConfig.editorconfig
+E:\SOLID_git\ISP_Applied\obj\Debug\net8.0\ISP_Applied.AssemblyInfoInputs.cache
+E:\SOLID_git\ISP_Applied\obj\Debug\net8.0\ISP_Applied.AssemblyInfo.cs
+E:\SOLID_git\ISP_Applied\obj\Debug\net8.0\ISP_Applied.csproj.CoreCompileInputs.cache
+E:\SOLID_git\ISP_Applied\obj\Debug\net8.0\ISP_Applied.sourcelink.json
+E:\SOLID_git\ISP_Applied\bin\Debug\net8.0\ISP_Applied.exe
+E:\SOLID_git\ISP_Applied\bin\Debug\net8.0\ISP_Applied.deps.json
+E:\SOLID_git\ISP_Applied\bin\Debug\net8.0\ISP_Applied.runtimeconfig.json
+E:\SOLID_git\ISP_Applied\bin\Debug\net8.0\ISP_Applied.dll
+E:\SOLID_git\ISP_Applied\bin\Debug\net8.0\ISP_Applied.pdb
+E:\SOLID_git\ISP_Applied\obj\Debug\net8.0\ISP_Applied.dll
+E:\SOLID_git\ISP_Applied\obj\Debug\net8.0\refint\ISP_Applied.dll
+E:\SOLID_git\ISP_Applied\obj\Debug\net8.0\ISP_Applied.pdb
+E:\SOLID_git\ISP_Applied\obj\Debug\net8.0\ISP_Applied.genruntimeconfig.cache
+E:\SOLID_git\ISP_Applied\obj\Debug\net8.0\ref\ISP_Applied.dll

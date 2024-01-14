@@ -1,0 +1,15 @@
+E:\SOLID_git\DIP_Applied\obj\Debug\net8.0\DIP_Applied.GeneratedMSBuildEditorConfig.editorconfig
+E:\SOLID_git\DIP_Applied\obj\Debug\net8.0\DIP_Applied.AssemblyInfoInputs.cache
+E:\SOLID_git\DIP_Applied\obj\Debug\net8.0\DIP_Applied.AssemblyInfo.cs
+E:\SOLID_git\DIP_Applied\obj\Debug\net8.0\DIP_Applied.csproj.CoreCompileInputs.cache
+E:\SOLID_git\DIP_Applied\obj\Debug\net8.0\DIP_Applied.sourcelink.json
+E:\SOLID_git\DIP_Applied\bin\Debug\net8.0\DIP_Applied.exe
+E:\SOLID_git\DIP_Applied\bin\Debug\net8.0\DIP_Applied.deps.json
+E:\SOLID_git\DIP_Applied\bin\Debug\net8.0\DIP_Applied.runtimeconfig.json
+E:\SOLID_git\DIP_Applied\bin\Debug\net8.0\DIP_Applied.dll
+E:\SOLID_git\DIP_Applied\bin\Debug\net8.0\DIP_Applied.pdb
+E:\SOLID_git\DIP_Applied\obj\Debug\net8.0\DIP_Applied.dll
+E:\SOLID_git\DIP_Applied\obj\Debug\net8.0\refint\DIP_Applied.dll
+E:\SOLID_git\DIP_Applied\obj\Debug\net8.0\DIP_Applied.pdb
+E:\SOLID_git\DIP_Applied\obj\Debug\net8.0\DIP_Applied.genruntimeconfig.cache
+E:\SOLID_git\DIP_Applied\obj\Debug\net8.0\ref\DIP_Applied.dll

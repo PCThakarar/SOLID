@@ -1,0 +1,15 @@
+E:\SOLID_git\SOLID\bin\Debug\net8.0\SOLID.exe
+E:\SOLID_git\SOLID\bin\Debug\net8.0\SOLID.deps.json
+E:\SOLID_git\SOLID\bin\Debug\net8.0\SOLID.runtimeconfig.json
+E:\SOLID_git\SOLID\bin\Debug\net8.0\SOLID.dll
+E:\SOLID_git\SOLID\bin\Debug\net8.0\SOLID.pdb
+E:\SOLID_git\SOLID\obj\Debug\net8.0\SOLID.GeneratedMSBuildEditorConfig.editorconfig
+E:\SOLID_git\SOLID\obj\Debug\net8.0\SOLID.AssemblyInfoInputs.cache
+E:\SOLID_git\SOLID\obj\Debug\net8.0\SOLID.AssemblyInfo.cs
+E:\SOLID_git\SOLID\obj\Debug\net8.0\SOLID.csproj.CoreCompileInputs.cache
+E:\SOLID_git\SOLID\obj\Debug\net8.0\SOLID.sourcelink.json
+E:\SOLID_git\SOLID\obj\Debug\net8.0\SOLID.dll
+E:\SOLID_git\SOLID\obj\Debug\net8.0\refint\SOLID.dll
+E:\SOLID_git\SOLID\obj\Debug\net8.0\SOLID.pdb
+E:\SOLID_git\SOLID\obj\Debug\net8.0\SOLID.genruntimeconfig.cache
+E:\SOLID_git\SOLID\obj\Debug\net8.0\ref\SOLID.dll
