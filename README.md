@@ -6,9 +6,9 @@ This repository is created to explain SOLID principles through code.
 - A module should be responsible to one and only one user or stakeholder
 - A module should be responsible to one and only one actor
 - Separate the code that different actors depends on
-- Bruteforce approach to achive SRP is to separate out each method into different classes which is not practical enough for larger projects.
+- Brute force approach to achieve SRP is to separate out each method into different classes which is not practical enough for larger projects.
 - The idea is to keep all code/ methods that changes together for the same actor within the same scope/ class.
-- Violatoion Example: Consider a student class that consists of all the methods related to student, course, payment, email sending, DB operations etc.. all scoped within a 
+- Violation Example: Consider a student class that consists of all the methods related to student, course, payment, email sending, DB operations etc.. all scoped within a 
   single class. In normal terms, we call such type of classes to be a fat/ bulky class and such classes violates SRP.
 
 ## OCP - Open closed Principle
@@ -21,10 +21,10 @@ This repository is created to explain SOLID principles through code.
   If component A should be protected from changes in component B, then B should depend on A and not the other way around.
 - In any software, business rules are the most sensitive parts and hence they are required to be protected from changes in any of the surrounding elements like Presenters
   (Ex: UI), Databases, Controllers, etc.
-- In general, Business rules are considered the highest level elements and hence should not depend on any other elements. By doing these we provide a priviliged position to 
+- In general, Business rules are considered the highest level elements and hence should not depend on any other elements. By doing these we provide a privileged position to 
   the Business rules and hence are the most protected elements of the hierarchy.
   Whereas, other elements like Presenters are considered as the lowest level elements and they depend on multiple other elements directly/ indirectly like controllers,     
-  Business rules, Databases, etc. and hence are the least protected elements of the hierarchy since any change in controllers, Business rules or Databses may impact the 
+  Business rules, Databases, etc. and hence are the least protected elements of the hierarchy since any change in controllers, Business rules or Databases may impact the 
   Presenters directly or indirectly
 - Higher level elements should be protected from the changes in the lower level elements.
 - Interfaces can be used to invert the dependencies and point dependencies in the correct direction.
@@ -32,7 +32,7 @@ This repository is created to explain SOLID principles through code.
   methods to subscribe/ unsubscribe and CRUD operations. Now, after COVID we had to provide Offline Course as well and hence we added a new property in class Course called 
   type based on which, we would be writing our logic specific to Online/ Offline classes. 
   This is a violation of OCP since, in future, there might be a requirement that we need to support a third type of Course called Hybrid. In this case, since our logic is 
-  conditional over a proerty of the Course class, we will require to change the class in a way that it will impact the other 2 types (Online/ Offline).
+  conditional over a property of the Course class, we will require to change the class in a way that it will impact the other 2 types (Online/ Offline).
 
 ## LSP - Liskov Substitution Principle
 -  A way of defining sub types
@@ -41,18 +41,18 @@ This repository is created to explain SOLID principles through code.
    significant amount of extra mechanisms.
 -  Violation examples
 - Square Rectangle problem
-- Consider that after 2 different modes of education (Online/ offilne) were introduced, a new requirement came for Offline students to check the availability of the 
+- Consider that after 2 different modes of education (Online/ offline) were introduced, a new requirement came for Offline students to check the availability of the 
   course in a certain area based on student's state. While solving LSP, we separated Online into a separate class than the normal Course class. Now, as the requirement 
-  was primarily for the Offline students, as a first instinct, we would add this method in the course clas and won't touch the Online class. However, OnlineCourse class inherits from Course class which has this new 
+  was primarily for the Offline students, as a first instinct, we would add this method in the course class and won't touch the Online class. However, OnlineCourse class inherits from Course class which has this new 
   method to check the availability of the course based on Student's state and since we have not implemented that method in the child class: Online Course, it will take the implementation from it's base/ parent 
   class which is Course which will in turn provide an incorrect result when invoked with an object of OnlineCourse class. Hence, this violates LSP.
 
  ## ISP - Interface segregation Principle
  - ISP is a language issue (occurs in statically typed languages like Java, .NET, etc.)
  - ISP says that you should not depend on things that you don't need.
- - ISP violation can cause unnecessary rcompilation and redeployment.
+ - ISP violation can cause unnecessary recompilation and redeployment.
  - Interfaces should only contain those methods that are most likely to be used together or for same context.
- - The lesson here is that depending on something that carries baggage that you dont need can cause you troubles that you didn't expect.
+ - The lesson here is that depending on something that carries baggage that you don't need can cause you troubles that you didn't expect.
  - Violation Example: Consider a database repository interface for Students. All the operations pertaining to student and their corresponding course are clubbed together in a single interface. Now let's say a new 
    course has been introduced in the curriculum and is required to be added by the school/ university teachers. At this point of time, the only requirement is to add a new Course and no Student dependency is 
    intended. However, since we have a common interface for Student and Course, the teachers have to depend on the entire interface which also contains methods for CRUD operations of Students along with CRUD 
@@ -67,7 +67,7 @@ This repository is created to explain SOLID principles through code.
  - Don't refer to volatile concrete classes.
  - Don't derive from volatile concrete classes.
  - Don't override concrete functions.
- - However, this never mean that your entire software can be stable and can never depend on any concret implementations.
+ - However, this never mean that your entire software can be stable and can never depend on any concrete implementations.
  - Creation of volatile concrete objects requires special handling for example implementing an abstract factory.
  - DIP violations of depending on concrete implementations cannot be entirely removed but they are gathered into a small number of concrete components and kept separate     
    from the rest of the system.
