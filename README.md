@@ -29,7 +29,7 @@ This repository is created to explain SOLID principles through code.
 - Higher level elements should be protected from the changes in the lower level elements.
 - Interfaces can be used to invert the dependencies and point dependencies in the correct direction.
 - Violation Example: Consider initially before COVID, there was only a single type of course (Offline) and for the same, we had a class for Course and had implemented some 
-  methods to subscribe/ unsubscribe and CRUD operations. Now, after COVID we had to provide Offline Course as well and hence we added a new property in class Course called 
+  methods to subscribe/ unsubscribe and CRUD operations. Now, after COVID we had to provide Online Course as well and hence we added a new property in class Course called 
   type based on which, we would be writing our logic specific to Online/ Offline classes. 
   This is a violation of OCP since, in future, there might be a requirement that we need to support a third type of Course called Hybrid. In this case, since our logic is 
   conditional over a property of the Course class, we will require to change the class in a way that it will impact the other 2 types (Online/ Offline).
