@@ -35,17 +35,17 @@ This repository is created to explain SOLID principles through code.
   conditional over a property of the Course class, we will require to change the class in a way that it will impact the other 2 types (Online/ Offline).
 
 ## LSP - Liskov Substitution Principle
--  A way of defining sub types
--  This is more of a guiding principle for inheritance which is required to be used to fix violations of other principles.
--  It says that a subtype should be substitutable for its parent type in all possible cases. Any violation of this substitution property can pollute a system with a     
-   significant amount of extra mechanisms.
--  Violation examples
-- Square Rectangle problem
-- Consider that after 2 different modes of education (Online/ offline) were introduced, a new requirement came for Offline students to check the availability of the 
-  course in a certain area based on student's state. While solving LSP, we separated Online into a separate class than the normal Course class. Now, as the requirement 
-  was primarily for the Offline students, as a first instinct, we would add this method in the course class and won't touch the Online class. However, OnlineCourse class inherits from Course class which has this new 
-  method to check the availability of the course based on Student's state and since we have not implemented that method in the child class: Online Course, it will take the implementation from it's base/ parent 
-  class which is Course which will in turn provide an incorrect result when invoked with an object of OnlineCourse class. Hence, this violates LSP.
+- A way of defining sub types
+- This is more of a guiding principle for inheritance which is required to be used to fix violations of other principles.
+- It says that a subtype should be substitutable for its parent type in all possible cases. Any violation of this substitution property can pollute a system with a     
+  significant amount of extra mechanisms.
+- Violation examples
+	- Square Rectangle problem
+	- Consider that after 2 different modes of education (Online/ offline) were introduced, a new requirement came for Offline students to check the availability of the 
+      course in a certain area based on student's state. While solving LSP, we separated Online into a separate class than the normal Course class. Now, as the requirement 
+      was primarily for the Offline students, as a first instinct, we would add this method in the course class and won't touch the Online class. However, OnlineCourse class inherits from Course class which has this new 
+      method to check the availability of the course based on Student's state and since we have not implemented that method in the child class: Online Course, it will take the implementation from it's base/ parent 
+      class which is Course which will in turn provide an incorrect result when invoked with an object of OnlineCourse class. Hence, this violates LSP.
 
  ## ISP - Interface segregation Principle
  - ISP is a language issue (occurs in statically typed languages like Java, .NET, etc.)
